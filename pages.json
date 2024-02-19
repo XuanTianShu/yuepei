@@ -1,0 +1,950 @@
+{
+  "pages": [
+		// 用户端nursingBed
+		// {
+		// 	"path": "pages/nursingBed/home/home",
+		// 	"style": {
+		// 		"navigationBarTitleText": "用户端首页",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/nursingBed/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/home/home",
+			"style": {
+				"navigationBarTitleText": "用户端首页",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/nursingBed/cooperation/infoList",
+			"style": {
+				"navigationBarTitleText": "列表信息"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/home/cnous",
+			"style": {
+				"navigationBarTitleText": "福利中心"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/replacePhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		
+		{
+			"path": "pages/nursingBed/mine/balance",
+			"style": {
+				"navigationBarTitleText": "我的余额",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/coupon",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "兑换券"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/transactionDetails",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "交易明细",
+				"navigationStyle":"custom"
+				//nav 1，押金明细 2，交易明细 3，兑换明细
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/deposit",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "我的押金"
+				// "navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/onLease",
+			"style": {
+				"navigationBarTitleText": "租借中",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/leaseOrder",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "租借订单"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/faultFeedback",
+			"style": {
+				"navigationBarTitleText": "故障反馈"
+			}
+		},
+		
+		{
+			"path": "pages/nursingBed/mine/commodityDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nursingBed/cooperation/show",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/instructions",
+			"style": {
+				"navigationBarTitleText": "使用说明"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/stillBed",
+			"style": {
+				"navigationBarTitleText": "还床"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/selFoldingBed",
+			"style": {
+				"navigationBarTitleText": "选择折叠床"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/payDeposit",
+			"style": {
+				"navigationBarTitleText": "缴纳押金"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/underReview",
+			"style": {
+				"navigationBarTitleText": "审核中",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/pay/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/nursingBed/lease/chairLease",
+			"style": {
+				"navigationBarTitleText": "折叠椅租借"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/myCase",
+			"style": {
+				"navigationBarTitleText": "我的病例"
+			}
+		},
+		
+		{
+			"path": "pages/nursingBed/mine/myCard",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "我的卡劵"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/selectCoupon",
+			"style": {
+				"navigationBarTitleText": "选择优惠券"
+			}
+		},
+		
+		{
+			"path": "pages/nursingBed/openCabinet/openCabinet",
+			"style": {
+				"navigationBarTitleText": "开柜中"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/commonProblem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/accountManagement/accountManagement",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		},
+		{
+			"path": "pages/nursingBed/cooperation/cooperativeFranchise",
+			"style": {
+				"navigationBarTitleText": "合作加盟",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/nursingBed/cooperation/joinList",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "加盟列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/completed",
+			"style": {
+				"navigationBarTitleText": "已完成"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/feedbackDetails",
+			"style": {
+				"navigationBarTitleText": "反馈详情"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/feedbackList",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "反馈列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/nursingBed/cooperation/insuranceCooperation",
+			"style": {
+				"navigationBarTitleText": "保险合作"
+			}
+		},
+		{
+			"path": "pages/nursingBed/mine/personalData",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		
+		
+		
+		// 投资人端
+		{
+			"path": "pages/investor/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/investor/indent/indent",
+			"style": {
+				"navigationBarTitleText": "订单信息",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/investor/device/manage",
+			"style": {
+				"navigationBarTitleText": "设备管理"
+			}
+		},
+		{
+			"path": "pages/investor/device/info",
+			"style": {
+				"navigationBarTitleText": "设备信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/investor/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/investor/home/revenue",
+			"style": {
+				"navigationBarTitleText": "营收统计"
+			}
+		},
+		
+		
+		
+		
+		  {
+			     "path": "pages/nosocomial/orders/refund",
+			     "style": {
+			      "navigationBarTitleText": "已退款"
+			     }
+		  },
+		  {
+		   "path": "pages/nosocomial/mine/PersonalCenter/index",
+		   "style": {
+		    "navigationBarTitleText": "个人中心",
+		    "navigationStyle":"custom"
+		   }
+		  },
+
+		  {
+		   "path": "pages/nosocomial/device/details",
+		   "style": {
+		    "navigationBarTitleText": "设备详情",
+		    "navigationStyle":"custom"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/device/edit",
+		   "style": {
+		    "navigationBarTitleText": "编辑信息"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/device/index",
+		   "style": {
+		    "navigationBarTitleText": "医院设备",
+		    "navigationStyle":"custom"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/Home/index",
+		   "style": {
+		    "navigationBarTitleText": "首页",
+		    "navigationStyle":"custom"
+		    
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/orders/bepaid",
+		   "style": {
+		    "navigationBarTitleText": "待支付"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/orders/Completedpackage",
+		   "style": {
+		    "navigationBarTitleText": "已完成"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/orders/index",
+		   "style": {
+		    "navigationBarTitleText": "订单"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/orders/paidpackage",
+		   "style": {
+		    "navigationBarTitleText": "待支付"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/orders/Rental",
+		   "style": {
+		    "navigationBarTitleText": "租借中"
+		   }
+		  },
+		  {
+		   "path": "pages/nosocomial/Revenue/statistics",
+		   "style": {
+		    "navigationBarTitleText": "营收统计"
+		   }
+		  },
+			
+			
+			
+			
+			
+			// 代理端
+			  {
+			        "path": "pages/agent/commodity/refund",
+			        "style": {
+			         "navigationBarTitleText": "已退款"
+			        }
+			  },
+					{
+								"path": "pages/agent/home/index",
+								"style": {
+									"navigationBarTitleText": "理端首页",
+									"navigationStyle": "custom"
+								}
+							},
+							{
+							 "path": "pages/agent/commodity/orders",
+							 "style": {
+							  "navigationBarTitleText": "商品订单"
+							 }
+							},
+							{
+							 "path": "pages/agent/commodity/paidpackage",
+							 "style": {
+							  "navigationBarTitleText": "已完成"
+							 }
+							},
+							{
+							 "path": "pages/agent/commodity/Rental",
+							 "style": {
+							  "navigationBarTitleText": "租借中"
+							 }
+							},
+							{
+							 "path": "pages/agent/commodity/bepaid",
+							 "style": {
+							  "navigationBarTitleText": "待支付"
+							 }
+							},
+							{
+							 "path": "pages/agent/commodity/Completedpackage",
+							 "style": {
+							  "navigationBarTitleText": "已完成"
+							 }
+							},
+							{
+							 "path": "pages/agent/commodity/rentorders",
+							 "style": {
+							  "navigationBarTitleText": "租借订单"
+							 }
+							},
+							{
+							 "path": "pages/agent/Revenue/statistics",
+							 "style": {
+							  "navigationBarTitleText": "营收统计"
+							 }
+							},
+							{
+							 "path": "pages/agent/manage/devicedetails",
+							 "style": {
+							  "navigationBarTitleText": "医院设备",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/manage/devicemanage",
+							 "style": {
+							  "navigationBarTitleText": "设备管理",
+							  "navigationStyle": "custom"
+							 }
+							 
+							},
+							{
+							 "path": "pages/agent/manage/detail",
+							 "style": {
+							  "navigationBarTitleText": "设备详情"
+							 }
+							},
+							{
+							 "path": "pages/agent/manage/edit",
+							 "style": {
+							  "navigationBarTitleText": "编辑信息"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/edits",
+							 "style": {
+							  "navigationBarTitleText": "编辑信息"
+							 }
+							},
+							{
+							 "path": "pages/agent/manage/addhospita",
+							 "style": {
+							  "navigationBarTitleText": "添加医院",
+							  "navigationStyle": "custom"
+							 }
+							},
+							
+							{
+							 "path": "pages/agent/photograph/Replacebattery",
+							 "style": {
+							  "navigationBarTitleText": "上传文档列表",
+							  "navigationStyle":"custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/photograph/Replacebatterys",
+							 "style": {
+							  "navigationBarTitleText": "上传文档列表"
+							 }
+							},
+							{
+							 "path": "pages/agent/photograph/upload",
+							 "style": {
+							  "navigationBarTitleText": "拍照上传"
+							 }
+							},
+					
+							{
+							 "path": "pages/agent/Withdrawals/tobank",
+							 "style": {
+							  "navigationBarTitleText": "提现到银行卡",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/Withdrawals/index",
+							 "style": {
+							  "navigationBarTitleText": "提现",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/Withdrawals/history",
+							 "style": {
+							  "navigationBarTitleText": "提现记录",
+							  "navigationStyle": "custom"
+							 }
+							},
+							
+							{
+							 "path": "pages/agent/Withdrawals/add",
+							 "style": {
+							  "navigationBarTitleText": "添加银行卡"
+							 }
+							},
+							{
+							 "path": "pages/agent/devices/fault",
+							 "style": {
+							  "navigationBarTitleText": "设备故障"
+							 }
+							},
+							{
+							 "path": "pages/agent/devices/faultdetail",
+							 "style": {
+							  "navigationBarTitleText": "故障详情"
+							 }
+							},
+							
+							{
+							 "path": "pages/agent/devices/faultrecords",
+							 "style": {
+							  "navigationBarTitleText": "维修记录"
+							 }
+							},
+							{
+							 "path": "pages/agent/devices/faultfinish",
+							 "style": {
+							  "navigationBarTitleText": "故障详情"
+							 }
+							},
+							{
+							 "path": "pages/agent/devices/faultdetails",
+							 "style": {
+							  "navigationBarTitleText": "故障详情2"
+							 }
+							},
+							
+							{
+							 "path": "pages/agent/manage/Replacebattery",
+							 "style": {
+							  "navigationBarTitleText": "更换电池记录"
+							 }
+							},
+							{
+							 "path": "pages/agent/account/openSubaccounts",
+							 "style": {
+							  "navigationBarTitleText": "开通子账户"
+							 }
+							},
+							{
+							 "path": "pages/agent/account/SubaccountsList",
+							 "style": {
+							  "navigationBarTitleText": "子账户管理列表"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/details",
+							 "style": {
+							  "navigationBarTitleText": "设备详情",
+							  "navigationStyle":"custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/fault",
+							 "style": {
+							  "navigationBarTitleText": "设备故障",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/faultdetail",
+							 "style": {
+							  "navigationBarTitleText": "故障详情",
+							  "navigationStyle":"custom"
+							 }
+							},
+							
+							{
+							 "path": "pages/agent/device/faultrecords",
+							 "style": {
+							  "navigationBarTitleText": "维修完成"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/faultfinish",
+							 "style": {
+							  "navigationBarTitleText": "故障详情",
+							      "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/faultdetails",
+							 "style": {
+							  "navigationBarTitleText": "故障详情2"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/detail",
+							 "style": {
+							  "navigationBarTitleText": "设备详情2"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/edit",
+							 "style": {
+							  "navigationBarTitleText": "编辑信息"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/index",
+							 "style": {
+							  "navigationBarTitleText": "医院设备",
+							  "navigationStyle":"custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/Replenishment",
+							 "style": {
+							  "navigationBarTitleText": "设备补货"
+							 }
+							},
+							{
+							 "path": "pages/agent/device/manage",
+							 "style": {
+							  "navigationBarTitleText": "设备管理",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/agent/illustrate/index",
+							 "style": {
+							  "navigationBarTitleText": "使用说明"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							
+							
+							
+							// 运维端
+							{
+							        "path": "pages/maintenance/fault/faultrecords",
+							        "style": {
+							         "navigationBarTitleText": "运维维修记录"
+							         // "navigationStyle": "custom"
+							        }
+							},
+							{
+							 "path": "pages/maintenance/home/index",
+							 "style": {
+							  "navigationBarTitleText": "运维首页"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/device/index",
+							 "style": {
+							  "navigationBarTitleText": "运维设备管理",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/device/stock",
+							 "style": {
+							  "navigationBarTitleText": "运维缺货"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/device/Replenishment",
+							 "style": {
+							  "navigationBarTitleText": "运维补货"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/fault/index",
+							 "style": {
+							  "navigationBarTitleText": "运维设备故障"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/fault/faultdetail",
+							 "style": {
+							  "navigationBarTitleText": "运维故障详情"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/fault/faultdetails",
+							 "style": {
+							  "navigationBarTitleText": "运维故障详情"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/fault/faultfinish",
+							 "style": {
+							  "navigationBarTitleText": "运维故障详情"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/fault/records",
+							 "style": {
+							  "navigationBarTitleText": "运维维修记录"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/orders/index",
+							 "style": {
+							  "navigationBarTitleText": "运维租借设备列表"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/orders/detail",
+							 "style": {
+							  "navigationBarTitleText": "运维设备详情"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/processes",
+							 "style": {
+							  "navigationBarTitleText": "运维设备流程"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/PersonalCenter",
+							 "style": {
+							  "navigationBarTitleText": "运维个人中心",
+							  "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/PersonalData",
+							 "style": {
+							  "navigationBarTitleText": "运维个人资料"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/operational",
+							 "style": {
+							  "navigationBarTitleText": "运维操作日志"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/Loginrecord",
+							 "style": {
+							  "navigationBarTitleText": "运维登录记录"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/coderecord",
+							 "style": {
+							  "navigationBarTitleText": "运维扫码记录"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/Restockrecords",
+							 "style": {
+							  "navigationBarTitleText": "运维补货记录"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/batteryrecord",
+							 "style": {
+							  "navigationBarTitleText": "运维更换电池记录"
+							  // "navigationStyle": "custom"
+							 }
+							},
+							{
+							 "path": "pages/maintenance/mine/Restockdetail",
+							 "style": {
+							  "navigationBarTitleText": "运维补货记录详情"
+							  // "navigationStyle": "custom"
+							 }
+							}
+		
+		
+		
+		
+	],
+	
+	
+	// "subPackages":[
+	// 	{
+	// 		"root": "pages/work",
+	// 		"pages": [
+	// 			{
+	// 				"path": "index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "工作台"
+	// 				}
+	// 			}
+	// 		]
+	// 	},
+	// 	{
+	// 		"root": "pages/common",
+	// 		"pages": [
+	// 			{
+	// 				"path": "webview/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "浏览网页"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "textview/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "浏览文本"
+	// 				}
+	// 			}
+	// 		]
+	// 	},
+	// 	{
+	// 		"root": "pages/mine",
+	// 		"pages": [
+	// 			{
+	// 				"path": "index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "我的"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "avatar/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "修改头像"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "info/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "个人信息"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "info/edit",
+	// 				"style": {
+	// 					"navigationBarTitleText": "编辑资料"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "pwd/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "修改密码"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "setting/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "应用设置"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "help/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "常见问题"
+	// 				}
+	// 			}, 
+	// 			{
+	// 				"path": "about/index",
+	// 				"style": {
+	// 					"navigationBarTitleText": "关于我们"
+	// 				}
+	// 			}
+	// 		]
+	// 	}
+	// ],
+	
+	
+	
+  // "tabBar": {
+  //   "color": "#000000",
+  //   "selectedColor": "#000000",
+  //   "borderStyle": "white",
+  //   "backgroundColor": "#ffffff",
+  //   "list": [{
+  //       "pagePath": "pages/index",
+  //       "iconPath": "static/images/tabbar/home.png",
+  //       "selectedIconPath": "static/images/tabbar/home_.png",
+  //       "text": "首页"
+  //     }, {
+  //       "pagePath": "pages/work/index",
+  //       "iconPath": "static/images/tabbar/work.png",
+  //       "selectedIconPath": "static/images/tabbar/work_.png",
+  //       "text": "工作台"
+  //     }, {
+  //       "pagePath": "pages/mine/index",
+  //       "iconPath": "static/images/tabbar/mine.png",
+  //       "selectedIconPath": "static/images/tabbar/mine_.png",
+  //       "text": "我的"
+  //     }
+  //   ]
+  // },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "yuepei",
+    "navigationBarBackgroundColor": "#FFFFFF",
+		"renderingMode":"seperated"
+		
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "我们将获取您的位置以使用地图"
+    }
+  }
+
+}
